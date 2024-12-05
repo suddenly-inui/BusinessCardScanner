@@ -1,0 +1,23 @@
+.cards{
+    display: flex !important;
+    width: 90%;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+.card-container{
+    height: 24vh;
+}
+
+.card{
+    position: relative !important;
+}
+
+.card:hover{ 
+    opacity: 0.5 !important;
+	transition:0.2s;
+    cursor: pointer;
+}

@@ -1,0 +1,11 @@
+.one-card{
+    position: relative !important;
+    width: 200px !important;
+    height: auto !important;
+}
+
+.one-card:hover{ 
+    opacity: 0.9;
+	transition:0.3s;
+    cursor: pointer;
+}
